@@ -1,20 +1,20 @@
 # hp-41_maidenhead
 
-HP-41 programs for converting between latitude/longitude coordinates and Maidenhead grid squares (QTH locators) used in amateur radio.
+HP-41 program for converting between latitude/longitude coordinates and Maidenhead grid squares (QTH locators) used in amateur radio.
 
 The Maidenhead Locator System is a geocode system used by amateur radio operators to succinctly describe their geographic coordinates. A typical grid square like "JP34kl" represents a specific location - in this case, a grid in northern Norway.
 
-## Programs
+## Program
 
 ### MAIDENHEAD.41
-Combined bidirectional converter between latitude/longitude and Maidenhead grid squares with USER menu interface.
+Bidirectional converter between latitude/longitude and Maidenhead grid squares with USER menu interface.
 
 **Usage:**
 1. Execute `XEQ "MAIDEN"`
 2. The program activates USER mode (SF 27) and displays menu:
    - **A** key: Grid to Lat/Long conversion
    - **B** key: Lat/Long to Grid conversion
-3. After each conversion, the menu returns automatically
+3. After each conversion, the menu returns automatically (except B which ends the program)
 
 **For Grid to Lat/Long (A key):**
 - Enter the 6-character grid square when prompted (e.g., "JP99ap")
@@ -25,28 +25,11 @@ Combined bidirectional converter between latitude/longitude and Maidenhead grid 
 - Enter latitude when prompted (e.g., 69.65 for Tromsø, Norway)
 - Enter longitude when prompted (e.g., 18.96)
 - The program displays the grid square (e.g., "JP99ap")
-- Returns to menu
+- Program ends
 
 **Examples:**
 - Grid to Lat/Long: "IO91wl" → LAT: 51.479, LON: -0.125
 - Lat/Long to Grid: 51.48, -0.13 (London) → "IO91wl"
-
-### LL2GRID.41
-Standalone program to convert latitude/longitude coordinates to a 6-character Maidenhead grid square.
-
-**Usage:**
-1. Execute `XEQ "LL>GRID"`
-2. Enter latitude when prompted
-3. Enter longitude when prompted
-4. The program displays the grid square
-
-### GRID2LL.41
-Standalone program to convert a Maidenhead grid square back to latitude/longitude coordinates (center of the grid square).
-
-**Usage:**
-1. Execute `XEQ "GRID>LL"`
-2. Enter the 6-character grid square when prompted
-3. The program displays the latitude and longitude of the grid center
 
 ## Technical Details
 
