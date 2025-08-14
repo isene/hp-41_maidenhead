@@ -14,18 +14,18 @@ Bidirectional converter between latitude/longitude and Maidenhead grid squares w
 2. The program activates USER mode (SF 27) and displays menu:
    - **A** key: Grid to Lat/Long conversion
    - **B** key: Lat/Long to Grid conversion
-3. After each conversion, the menu returns automatically (except B which ends the program)
+3. After each conversion, R/S returns you to the menu
 
 **For Grid to Lat/Long (A key):**
 - Enter the 6-character grid square when prompted (e.g., "JP99ap")
 - The program displays the latitude and longitude of the grid center
-- Returns to menu
+- R/S: Returns to menu
 
 **For Lat/Long to Grid (B key):**
 - Enter latitude when prompted (e.g., 69.65 for Tromsø, Norway)
 - Enter longitude when prompted (e.g., 18.96)
 - The program displays the grid square (e.g., "JP99ap")
-- Program ends
+- R/S: Returns to menu
 
 **Examples:**
 - Grid to Lat/Long: "IO91wl" → LAT: 51.479, LON: -0.125
