@@ -1,3 +1,5 @@
+<img src="img/hp41_maidenhead_logo.svg" align="left" width="150" height="150" alt="HP-41 Maidenhead Logo">
+
 # hp-41_maidenhead
 
 [![HP-41](https://img.shields.io/badge/HP--41-Calculator-orange)](https://en.wikipedia.org/wiki/HP-41C)
