@@ -6,6 +6,7 @@
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
 
 <img src="img/hp41_maidenhead_logo.svg" align="left" width="150" height="150" alt="HP-41 Maidenhead Logo">
+<br clear="left"/>
 
 HP-41 program for converting between latitude/longitude coordinates and Maidenhead grid squares (QTH locators) used in amateur radio.
 
